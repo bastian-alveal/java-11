@@ -15,7 +15,7 @@ jobs:
 
     - name: Check and Install specific Maven version
       run: |
-        MAVEN_VERSION=3.8.6
+        MAVEN_VERSION=3.8.8
         MAVEN_DIR=/opt/apache-maven-${MAVEN_VERSION}
         
         # Validar si Maven ya está instalado
