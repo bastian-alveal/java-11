@@ -8,7 +8,6 @@ on:
 jobs:
   build:
     runs-on: self-hosted  # Usar el runner autohospedado
-    labels: [self-hosted, Linux, X64]  # Etiquetas del runner
 
     steps:
     - name: Checkout code
